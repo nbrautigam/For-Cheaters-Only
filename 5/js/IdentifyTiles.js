@@ -1,6 +1,6 @@
 define('IdentifyTiles', [
     'dojo/_base/declare',
-    'dojo/_base/lang',
+    'dojo/_base/lang',dfgspdf;lklkxfg;lkjdsafkjg
     'dojo/_base/Color',
     'dojo/dom',
 
@@ -117,8 +117,8 @@ define('IdentifyTiles', [
 
             this.query.geometry = evt.mapPoint;
 
-            this.qTasks[this.currentLayer].execute(this.query, 
-                lang.hitch(this, this.onQueryTaskComplete), 
+            this.qTasks[this.currentLayer].execute(this.query,
+                lang.hitch(this, this.onQueryTaskComplete),
                 lang.hitch(this, this.onQueryTaskError));
         },
         onQueryTaskComplete: function(fSet) {
